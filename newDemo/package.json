@@ -1,0 +1,28 @@
+{
+  "name": "h265player",
+  "version": "1.0.0",
+  "description": "SYA create H265 player",
+  "main": "index.js",
+  "scripts": {
+    "serve": "webpack serve --open",
+    "build": "webpack --config webpack.config.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.scsv.online/frontend-lib/265player.git"
+  },
+  "author": "sya",
+  "license": "ISC",
+  "dependencies": {
+    "eventemitter3": "^3.1.0",
+    "html-webpack-plugin": "^5.3.2",
+    "worker-loader": "^3.0.8"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^9.0.1",
+    "webpack": "^5.52.1",
+    "webpack-cli": "^4.8.0",
+    "webpack-dev-server": "^4.2.1"
+  }
+}
