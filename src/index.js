@@ -2,8 +2,8 @@ import {
   Player
 } from './player'
 
-const url1 = 'ws://192.168.1.115:7500/ms/wsr/media?url=rtsp://admin:12345@192.168.1.12:554/Streaming/Channels/102?transportmode=unicast&profile=Profile_101'
-const url = 'ws://192.168.1.115:7500/ms/wsr/media?url=rtsp://admin:12345@192.168.1.62:554/Streaming/Channels/102?transportmode=unicast&profile=Profile_101';
+const url1 = '请填写你的websocket地址(测试切换使用)'
+const url = '请填写你的websocket地址';
 
 export default function BasicsPlayer() {
   this.bossDiv = document.getElementById('app');
