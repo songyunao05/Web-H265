@@ -7,3 +7,5 @@
 三、支持多路视频软解播放(实时)，性能可测
 
 **tips:** 简单直接明了
+
+主要参考项目：https://github.com/sonysuqin/WasmVideoPlayer
